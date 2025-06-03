@@ -12,7 +12,7 @@ echo "==> Agregando repositorio Flathub..."
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 echo "==> Instalando QGroundControl desde Flathub..."
-flatpak install -y flathub org.mavlink.qgroundcontrol
+sudo flatpak install -y flathub org.mavlink.qgroundcontrol
 
 echo "==> Instalando entorno gráfico mínimo..."
 sudo apt install -y xorg openbox unclutter xterm xdotool wmctrl \
